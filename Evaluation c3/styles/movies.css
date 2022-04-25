@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    background-color: teal;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
+}
+
+#wallet{
+    margin-left: 35%;
+    margin-right: 4%;
+}
+#search{
+    width: 25%;
+    margin: 2% 0% 4% 4%;
+    padding: 10px 12px;
+    font-size: 16px;
+}
+
+
+#movies{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 2%;
+}
+
+.movieBox{
+    /* border: 2px solid red; */
+    height: 400px;
+    background-color: rgb(4, 4, 61);
+    padding: 2%;
+}
+
+.imgDiv{
+    width: 100%;
+    height: 65%;
+}
+
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.titleDiv p{
+    font-size: 26px;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: white;
+}
+
+.titleDiv button{
+    cursor: pointer;
+    font-size: 16px;
+    margin: 3% 0% 2% 5% ;
+    padding: 8px 12px;
+    background-color: rgb(32, 122, 248);
+    color: white;
+    font-weight: bold;
+    border: 4px solid white;
+}
